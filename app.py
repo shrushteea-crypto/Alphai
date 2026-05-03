@@ -174,7 +174,6 @@ st.markdown("""
 def _fetch_candles_cached() -> pd.DataFrame:
     return fetch_candles(LIVE_BARS)
 
-@st.cache_data
 def _load_backtest(filepath: str) -> pd.DataFrame | None:
     if not os.path.exists(filepath): return None
     rows = [json.loads(line) for line in open(filepath) if line.strip()]
