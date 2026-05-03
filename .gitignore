@@ -1,0 +1,26 @@
+# ── Python runtime ─────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual environments ────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Generated artifacts ─────────────────────────────────────────────────────
+backtest_results.jsonl
+
+# ── Streamlit cache ─────────────────────────────────────────────────────────
+.streamlit/
+
+# ── OS / IDE junk ───────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
