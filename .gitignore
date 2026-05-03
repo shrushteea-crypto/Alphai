@@ -12,7 +12,6 @@ env/
 ENV/
 
 # ── Generated artifacts ─────────────────────────────────────────────────────
-backtest_results.jsonl
 
 # ── Streamlit cache ─────────────────────────────────────────────────────────
 .streamlit/
